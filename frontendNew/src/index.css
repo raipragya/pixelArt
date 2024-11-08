@@ -1,0 +1,22 @@
+/* Reset styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply background image to the whole page */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(45, 6, 67);
+  height:300px;
+  color: #333;
+}
+
+/* Optional: set a min-height to ensure the background image covers the full viewport */
+
+html, body, #root {
+  height: 100%;
+}

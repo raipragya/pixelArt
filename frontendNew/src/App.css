@@ -1,0 +1,233 @@
+/* Container for both forms */
+.homep{
+  background-color:#79066b
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.form-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(237, 232, 232, 0.471);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Form title styling */
+.form-title {
+  font-size: 24px;
+  color: hwb(75 89% 7%);
+  margin-bottom: 1.5rem;
+}
+
+/* Label styling */
+.form-label {
+  display: block;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* Input and select styling */
+.form-input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+  color: white;
+  background-color: #f3f9ff;
+  text-align: center;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.form-button {
+  width: 40%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #1c12d7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(206, 157, 157, 0.3);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+/* Button hover effect */
+.form-button:hover {
+  background-color: #c617b1;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Glossy effect for buttons */
+.form-button::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  pointer-events: none;
+}
+
+/* Fieldset styling */
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+fieldset label {
+  display: block;
+  margin: 0.25rem 0;
+}
+/* In your CSS file (e.g., HomePage.css) */
+.header-gif {
+  background-image: url('./assets/frontpage.gif');
+  background-size: cover;
+  background-position: center;
+  height: 250px; /* Adjust height as needed */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color for overlay text */
+}
+/* app.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2d2b2c;
+  color: #131217;
+}
+
+/* Header Styles */
+header {
+  background-image: url(./assets/frontpage.gif);
+  background-color: rgb(57, 54, 54);
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color:white;
+}
+
+header nav ul {
+  list-style:none;
+  text-align: right;
+  margin: 0;
+  padding: 10px;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #fff;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+.welcome-message {
+  text-align: center;
+  color:rgb(8, 7, 7);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.progress {
+  background-color: #333;
+ 
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.progress h2 {
+  margin: 0;
+  color: yellow;
+  padding-bottom: 10px;
+  
+}
+
+.user-info {
+ 
+  display: flex;
+  align-items: center;
+  color:#fff;
+}
+
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.stats {
+  padding-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  color:white;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat p:first-child {
+  font-weight: bold;
+}
+
+.Myprofile {
+  width: 30%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #c24bb6;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(206, 157, 157, 0.3);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+/* Footer Styles */
+
+
+/* Responsive Design (Optional) */
+@media (max-width: 768px) {
+  /* Adjust layout for smaller screens */
+}
